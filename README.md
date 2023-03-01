@@ -8,17 +8,14 @@ Source Code Pro 字体的获取：[Source Code Pro Latest] 页面下载最新版
 
 #### 安装 
 
-    # mkdir /usr/share/fonts/myfonts/
+    # mkdir -p ~/.local/share/fonts/myfonts/
 
     # git clone https://github.com/ueaner/fonts
-    # cp *.ttf /usr/share/fonts/myfonts/
+    # cp *.ttf ~/.local/share/fonts/myfonts/
 
     # tar xf source-code-pro-xxx.tar.gz
-    # cp source-code-pro-xxx/TTF/*.otf /usr/share/fonts/myfonts/
+    # cp source-code-pro-xxx/TTF/*.otf ~/.local/share/fonts/myfonts/
 
-    # cd /usr/share/fonts/myfonts/
-    # mkfontscale
-    # mkfontdir
     # fc-cache -f
 
 安装完毕。
